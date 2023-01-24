@@ -1,6 +1,10 @@
 import sys
 
 input=sys.stdin.readline
+# input은 prompt message를 출력하고 \n을 rstirp()한 뒤 리턴해준다.
+# sys.stdin.readline은 prompt message를 출력안하고 \n도 그냥 입력받아버린다.
+# 과정에 차이가 있기 때문에 sys.stdin.readline이 input보다 빠른 것이다.
+
 
 def solution(n):
     main_stack = []
