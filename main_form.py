@@ -1,5 +1,5 @@
 def solution():
-    return
+    print("hello")
 
 def main():
     solution()
